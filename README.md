@@ -6,6 +6,8 @@ Al ser parte de un servicio se puede configurar el inicio automático o inicio a
 
 <h5>Pasos a seguir</h5>
 1. Ejecuta el archivo asadmin.bat ubicado en bin principal. 
-(debe abrirse una ventana cmd)
+(debe abrirse una ventana cmd) 
+<br/>
 Ejemplo: C:/My-Pc/documents/Server/glassfish-7.12/bin/asadmin.bat
+<br/>
 2. Ejecuta el comando create-service.
