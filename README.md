@@ -1,4 +1,3 @@
-# Glassfish-as-a-Windows-Service
 <h2>How to install Glassfish Server as a Windows Service</h2>
 
 <h4>¿Por qué es recomendable poner GF como un Servicio de Windows</h4>
