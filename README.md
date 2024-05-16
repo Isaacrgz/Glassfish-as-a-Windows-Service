@@ -2,6 +2,7 @@
 
 <h4>¿Por qué es recomendable poner GF como un Servicio de Windows</h4>
 Al ser parte de un servicio se puede configurar el inicio automático o inicio automático con retraso*, es decir, se inicia el servidor GF al encender el equipo de cómputo. 
+
 *En caso de inicio automático con retraso, los servicios con esta configuración inicial al finalizar el inicio de los servicios de inicio auto automático.
 
 <h5>Pasos a seguir</h5>
