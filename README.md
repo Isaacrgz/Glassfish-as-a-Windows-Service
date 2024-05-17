@@ -5,10 +5,8 @@ Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inici
 > [!NOTE]
 > En caso de `Inicio Automático con Retraso`, los servicios con esta configuración inician cuando todos los servicios con la configuración `Inicio Automático` estan iniciado.
 
-
 ## Pasos a seguir
-
-1. Ejecuta el archivo asadmin.bat ubicado en bin principal.
+1. Ejecuta el archivo ***asadmin.bat*** ubicado en bin principal. 
 > Ruta de ejemplo: C:/My-Pc/documents/Server/glassfish7/bin/asadmin.bat
 2. Tras abrirse la ventana de ***cmd***.
 > [!TIP]
@@ -34,8 +32,22 @@ Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inici
 | :---: | :---: | :---: | :---: | :---: |
 | Domain1 GlassFish Server | GlassFish Server | | Manual | Sistema local | 
 
-7. Para cambiar configuración actual hay que dar clic derecho sobre el servicio > Propiedades
-8. 
+7. Para cambiar configuración actual hay que dar clic derecho sobre el *servicio > Propiedades*
+> [!NOTE]
+> La siguinte configuración esta basada en mi experiencia, tu puedes utilizar la configuración que desees.     
+8. En la pestaña *Propiedades > General*
+   + Tipo de inicio: `Inicio Automático`
+   + Estado del servicio: `Iniciar`
+> [!WARNING]
+> Si inicias el sericio, debes de asegurarte que se encuntre apagado el **Servidor GlassFish**.
+
+> Error: ***Windows no pudo iniciar el servicio domain1 GlassFish Server en Equipo Local***.
+> [!TIP]
+> Utiliza el siguiente comando en asadmin.bat como en los pasos 1-3, para apagar el Servidor GlassFish.
+> ```
+>    stop-domain
+> ```
+9. En la pestaña *Propiedades > Iniciar sesión*
 
 
 
