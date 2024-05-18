@@ -51,11 +51,12 @@ Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inici
    + Esta cuenta: `.Administrador`
    + Contraseña: `contraseña de la cuenta`
 10. En la pestaña *Propiedades > Recuperación*
-   + Primer error: `Reiniciar el servicio`
-   + Segundo error: `Reiniciar el servicio`
-   + Siguientes errores: `Reiniciar el servicio`
-   + Restablecer recuento de errores después de: `0` días
-   + Reiniciar el servidor después de: `2` minutos
+      + Primer error: `Reiniciar el servicio`
+      + Segundo error: `Reiniciar el servicio`
+      + Siguientes errores: `Reiniciar el servicio`
+      + Restablecer recuento de errores después de: `0` días
+      + Reiniciar el servidor después de: `2` minutos
+
 
 
 
