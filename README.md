@@ -40,14 +40,22 @@ Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inici
    + Estado del servicio: `Iniciar`
 > [!WARNING]
 > Si inicias el sericio, debes de asegurarte que se encuntre apagado el **Servidor GlassFish**.
-
 > Error: ***Windows no pudo iniciar el servicio domain1 GlassFish Server en Equipo Local***.
+
 > [!TIP]
 > Utiliza el siguiente comando en asadmin.bat como en los pasos 1-3, para apagar el Servidor GlassFish.
 > ```
 >    stop-domain
 > ```
 9. En la pestaña *Propiedades > Iniciar sesión*
+   + Esta cuenta: `.Administrador`
+   + Contraseña: `contraseña de la cuenta`
+10. En la pestaña *Propiedades > Recuperación*
+   + Primer error: `Reiniciar el servicio`
+   + Segundo error: `Reiniciar el servicio`
+   + Siguientes errores: `Reiniciar el servicio`
+   + Restablecer recuento de errores después de: `0` días
+   + Reiniciar el servidor después de: `2` minutos
 
 
 
