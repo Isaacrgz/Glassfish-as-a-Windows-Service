@@ -57,6 +57,13 @@ Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inici
       + Restablecer recuento de errores después de: `0` días
       + Reiniciar el servidor después de: `2` minutos
 
+11. Aceptar los cambios y comprobar la nueva configuración.
 
+| Nombre | Descripción | Estado | Tipo de inicio | Iniciar sesión como |
+| :---: | :---: | :---: | :---: | :---: |
+| Domain1 GlassFish Server | GlassFish Server | en ejecución | Automático | Administrador | 
+
+> [!IMPORTANT]
+> Si tienes la posibilidad, reinicia el equipo para comprobar el inicio automático.
 
 
