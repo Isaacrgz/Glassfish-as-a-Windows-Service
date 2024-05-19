@@ -7,7 +7,7 @@ Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inici
 
 ## Pasos a seguir
 1. Ejecuta el archivo ***asadmin.bat*** ubicado en bin principal. 
-> Ruta de ejemplo: C:/My-Pc/documents/Server/glassfish7/bin/asadmin.bat
+> Ruta de ejemplo: C:/My-Pc/ServerGF/glassfish7/bin/asadmin.bat
 2. Tras abrirse la ventana de ***cmd***.
 > [!TIP]
 > Es recomenadable tener apagador el servidor GF para futuros pasos.
