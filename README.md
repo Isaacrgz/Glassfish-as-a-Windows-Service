@@ -11,12 +11,12 @@ Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inici
 2. Tras abrirse la ventana de ***cmd***.
 > [!TIP]
 > Es recomenadable tener apagador el servidor GF para futuros pasos.
-3. Ejecuta el siguiente comando para crear el servicio:
+3. Ejecuta el siguiente comando para *crear* el servicio:
 ```
    create-service
 ```
 > [!IMPORTANT]
-> Windows puede pedir permiso de administrador para crear el servicio. 
+> Windows puede pedir permiso de administrador para *crear* el servicio. 
    - Resultado esperado:
      ```
          Command create-service executed successfully
@@ -43,7 +43,7 @@ Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inici
 > Error: ***Windows no pudo iniciar el servicio domain1 GlassFish Server en Equipo Local***.
 
 > [!TIP]
-> Utiliza el siguiente comando en asadmin.bat como en los pasos 1-3, para apagar el Servidor GlassFish.
+> Utiliza el siguiente comando en asadmin.bat como en los pasos 1-3, para *apagar* el Servidor GlassFish.
 > ```
 >    stop-domain
 > ```
