@@ -65,5 +65,3 @@ Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inici
 
 > [!IMPORTANT]
 > Si tienes la posibilidad, reinicia el equipo para comprobar el inicio automático.
-
-
