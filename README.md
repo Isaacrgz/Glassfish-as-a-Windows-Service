@@ -1,4 +1,4 @@
-# Como instalar GlassFish como un Servicio de Windows
+# Instalar GlassFish Server como un Servicio de Windows
 
 ## ¿Por qué es recomendable poner GF como un Servicio de Windows?
 Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inicio Automático con Retraso`, es decir, se inicia el servidor GF al encender el equipo de cómputo. 
@@ -61,7 +61,11 @@ Al ser parte de un servicio se puede configurar el `Inicio Automático` o `Inici
 
 | Nombre | Descripción | Estado | Tipo de inicio | Iniciar sesión como |
 | :---: | :---: | :---: | :---: | :---: |
-| Domain1 GlassFish Server | GlassFish Server | en ejecución | Automático | Administrador | 
+| Domain1 GlassFish Server | GlassFish Server | En ejecución | Automático | Administrador | 
 
 > [!IMPORTANT]
 > Si tienes la posibilidad, reinicia el equipo para comprobar el inicio automático.
+
+
+# Otras ayudas de GlassFish Server
+   - [Iniciar y apagar manualmente GlassFish](https://github.com/Isaacrgz/Start-Glassfish/blob/main/README.md)
